@@ -13,13 +13,16 @@ client.on('ready', () => {
  
 
 client.on('message', message => {
-if (message.substring(0, 1) == '£') {
     if (message.content === 'yeet') {
 
        message.reply('Yeet the meat');
 
        }
-}
+client.on('message', message => {
+    if (message.content === 'shrek') {
+
+message.reply(https://static.thisisinsider.com/image/5c59e77ceb3ce80d46564023.jpg)
+       }
 });
 
 
