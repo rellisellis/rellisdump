@@ -15,7 +15,7 @@ client.on('ready', () => {
 client.on('message', message => {
     if (message.content === 'yeet') {
 
-       message.reply('Yeet the meat');
+       message.reply('Yeet the meat bitch');
 
        }
 client.on('message', message => {
