@@ -13,13 +13,13 @@ client.on('ready', () => {
  
 
 client.on('message', message => {
-
+if (message.substring(0, 1) == '£') {
     if (message.content === 'yeet') {
 
        message.reply('Yeet the meat');
 
        }
-
+}
 });
 
 
